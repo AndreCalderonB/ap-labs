@@ -14,21 +14,27 @@ Build Requirements
 ```
 # Build Requirements here
 ```
-
+Needs Eclipse
 
 How to build
 ------------
 ```
 # instructions here
 ```
-
+Download the project
+---In eclipse
+1. Go to "File -> Import"
+2. Select "General -> Existing Projects into Workspace"
+3. Select the downloaded project
+4. Select the project
+5. Finish
 
 How to Run
 ----------
 ```
 # instructions here
 ```
-
+A nested array is provided in the main function as myarray, but you can add or change it. Then simply run it.
 
 General instructions
 --------------------
