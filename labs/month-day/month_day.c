@@ -3,7 +3,7 @@
 /* month_day function's prototype*/
 void month_day(int year, int yearday, int *pmonth, int *pday);
 
-int main(argc, int year) {
+int main(argc, char *argv[]) {
      int year =atoi(argv[1]);
     int day = atoi(argv[2]);
     char * months[12] ={"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"};
