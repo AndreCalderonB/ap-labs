@@ -1,9 +1,9 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /* month_day function's prototype*/
 void month_day(int year, int yearday, int *pmonth, int *pday);
 
-int main(argc, char *argv[]) {
+int main(int argc, char *argv[]) {
      int year =atoi(argv[1]);
     int day = atoi(argv[2]);
     char * months[12] ={"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"};
@@ -44,7 +44,7 @@ int main(argc, char *argv[]) {
             }
         }
 
-        printf("%s %d, %d\n", months[*monthp], *dayp,year);
+        printf("%s %d, %d\n", months[*monthp-1], *dayp,year);
     }
 
     
