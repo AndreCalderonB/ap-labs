@@ -27,6 +27,5 @@ int main(int argc, char **argv){
 			errorf("Caso invalido");
 			break;
 	}
-	
     return 0;
 }
