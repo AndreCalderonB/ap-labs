@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+<<<<<<< HEAD
 	"runtime"
 	"time"
 )
@@ -41,4 +42,13 @@ func pipeline(memoryLimit uint64) {
 
 func main() {
 	pipeline(1024)
+=======
+)
+
+func main() {
+	var maxStages, transitTime int
+
+	fmt.Println("Maximum number of pipeline stages   : ", maxStages)
+	fmt.Println("Time to transit trough the pipeline : ", transitTime)
+>>>>>>> 4d26fcdcd611edfa7cbeb7b4ac42340829a76999
 }

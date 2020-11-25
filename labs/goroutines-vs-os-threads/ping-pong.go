@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+<<<<<<< HEAD
 	"time"
 )
 
@@ -27,4 +28,12 @@ func main() {
 	}
 
 	fmt.Println("Communications Per Second : ", total)
+=======
+)
+
+func main() {
+	var commsPerSecond int
+
+	fmt.Println("Communications Per Second : ", commsPerSecond)
+>>>>>>> 4d26fcdcd611edfa7cbeb7b4ac42340829a76999
 }
