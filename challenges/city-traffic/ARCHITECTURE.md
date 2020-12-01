@@ -70,3 +70,4 @@ Each Semaphore has a queueManager, which runs concurrently, it spawns cars, and 
 
 Each Car checks the light of the lane it´s on, and the speed of the car directly in front of it.
 
+https://www.youtube.com/watch?v=P0MMW2jMvmI&feature=youtu.be
